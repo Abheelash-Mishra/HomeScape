@@ -25,18 +25,7 @@ const LoginModal = () => {
 	const registerModal = useRegisterModal();
 	const [isLoading, setIsLoading] = useState(false);
 
-	const {
-		register,
-		handleSubmit,
-		formState: {
-			errors,
-		},
-	} = useForm<FieldValues>({
-		defaultValues: {
-			email: '',
-			password: ''
-		},
-	});
+	const { register, handleSubmit, formState: { errors } } = useForm<FieldValues>({ defaultValues: { email: '', password: '' } });
 
 	const onSubmit: SubmitHandler<FieldValues> =
 		(data) => {
@@ -75,18 +64,18 @@ const LoginModal = () => {
 			<Input
 				id="email"
 				label="Email"
-				disabled={isLoading}
-				register={register}
-				errors={errors}
+				disabled={ isLoading }
+				register={ register }
+				errors={ errors }
 				required
 			/>
 			<Input
 				id="password"
 				label="Password"
 				type="password"
-				disabled={isLoading}
-				register={register}
-				errors={errors}
+				disabled={ isLoading }
+				register={ register }
+				errors={ errors }
 				required
 			/>
 		</div>
@@ -94,18 +83,18 @@ const LoginModal = () => {
 
 	const footerContent = (
 		<div className="flex flex-col gap-4 mt-3">
-			<hr />
+			<hr/>
 			<Button
 				outline
 				label="Continue with Google"
-				icon={FcGoogle}
-				onClick={() => signIn('google')}
+				icon={ FcGoogle }
+				onClick={ () => signIn('google') }
 			/>
 			<div className="
       text-neutral-500 text-center mt-4 font-light">
 				<p>First time using Airbnb?
 					<span
-						onClick={onToggle}
+						onClick={ onToggle }
 						className="
               text-neutral-800
               cursor-pointer
@@ -119,14 +108,14 @@ const LoginModal = () => {
 
 	return (
 		<Modal
-			disabled={isLoading}
-			isOpen={loginModal.isOpen}
+			disabled={ isLoading }
+			isOpen={ loginModal.isOpen }
 			title="Login"
 			actionLabel="Continue"
-			onClose={loginModal.onClose}
-			onSubmit={handleSubmit(onSubmit)}
-			body={bodyContent}
-			footer={footerContent}
+			onClose={ loginModal.onClose }
+			onSubmit={ handleSubmit(onSubmit) }
+			body={ bodyContent }
+			footer={ footerContent }
 		/>
 	);
 }
