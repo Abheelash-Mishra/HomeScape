@@ -17,7 +17,7 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
 	return (
 		<div className={ "fixed w-full bg-white z-10 shadow-sm" }>
-			<div className={ "py-4 border-b[1px]" }>
+			<div className={ "py-4 border-b-[1px]" }>
 
 				{/*Passes whatever I write here as children prop to Container.tsx*/ }
 
