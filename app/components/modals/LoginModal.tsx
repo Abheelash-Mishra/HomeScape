@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useState } from "react";
+import React, { useCallback, useState } from "react";
 
 import { toast } from "react-hot-toast";
 import { signIn } from 'next-auth/react';
@@ -90,15 +90,18 @@ const LoginModal = () => {
 				icon={ FcGoogle }
 				onClick={ () => signIn('google') }
 			/>
-			<div className="text-neutral-500 text-center mt-4 font-light">
-				<p>First time using Airbnb?
-					<span
-						onClick={ onToggle }
-						className="text-neutral-800cursor-pointerhover:underline"
+			<div className={ "text-neutral-500 text-center mt-4 font-light" }>
+				<div className={ "justify-center flex flex-row items-center gap-2" }>
+					<div>
+						First time using Airbnb?
+					</div>
+					<div
+						className={ "text-neutral-800 cursor-pointer hover:underline" }
+						onClick={onToggle}
 					>
 						Create an account
-					</span>
-				</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	)
