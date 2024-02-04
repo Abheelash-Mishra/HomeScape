@@ -12,7 +12,7 @@ import useLoginModal from "@/app/hooks/useLoginModal";
 
 import Modal from "@/app/components/modals/modal";
 import Heading from "@/app/components/Heading";
-import Input from "@/app/components/Input";
+import Input from "@/app/components/inputs/Input";
 import toast from "react-hot-toast";
 import Button from "@/app/components/Button";
 import { signIn } from "next-auth/react";
