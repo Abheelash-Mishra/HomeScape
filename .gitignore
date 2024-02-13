@@ -2,6 +2,7 @@
 
 .idea
 .env
+/prisma
 
 # dependencies
 /node_modules
