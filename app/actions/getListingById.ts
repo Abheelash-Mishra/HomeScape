@@ -25,7 +25,6 @@ export default async function getListingById(
 
 		return {
 			...listing,
-			createdAt: listing.createdAt.toString(),
 			user: {
 				...listing.user,
 				createdAt: listing.user.createdAt.toString(),
