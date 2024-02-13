@@ -1,34 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HomeScape
 
-## Getting Started
+Homescape is a platform designed to connect travelers with unique accommodations and unforgettable experiences around the world. With Homescape, travelers can discover and book a wide range of accommodations tailored to their preferences, whether they're seeking a cozy cabin in the mountains, a chic urban loft, or a beachfront villa.
 
-First, run the development server:
+## Technical Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Prisma ORM Integration:** Simplifies database access and management, ensuring data consistency.
+- **Next.js Framework:** Enables dynamic routing, code splitting, and efficient server-side rendering.
+- **NextAuth Authentication:** Provides secure authentication and authorization capabilities with various providers.
+- **Serverless Deployment:** Ensures scalability and cost-efficiency by leveraging serverless architectures.
+- **Real-time Data Updates:** Keeps users informed instantly with WebSocket technology for real-time notifications.
+- **Optimized Performance:** Prioritizes fast page load times and smooth navigation through performance optimization techniques.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Homescape's infrastructure, powered by Prisma, Next.js, and NextAuth, guarantees a seamless, secure and responsive experience for its users.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Upcoming Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Payment System:** Streamline transactions with secure, user-friendly payment processing.
+- **Account Settings:** Personalize your Homescape experience by managing profile details and preferences effortlessly.
+- **Enhanced Search System:** Discover your ideal accommodation faster with advanced filtering options and improved search functionality. 
