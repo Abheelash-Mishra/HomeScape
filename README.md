@@ -2,6 +2,14 @@
 
 Homescape is a platform designed to connect travelers with unique accommodations and unforgettable experiences around the world. With Homescape, travelers can discover and book a wide range of accommodations tailored to their preferences, whether they're seeking a cozy cabin in the mountains, a chic urban loft, or a beachfront villa.
 
+## Demo Video
+
+
+
+https://github.com/Abheelash-Mishra/homescape/assets/108271085/61e6f88d-384a-4bfe-b52d-456f6e814355
+
+
+
 ## Technical Features
 
 - **Prisma ORM Integration:** Simplifies database access and management, ensuring data consistency.
