@@ -21,8 +21,3 @@ https://github.com/Abheelash-Mishra/homescape/assets/108271085/61e6f88d-384a-4bf
 
 Homescape's infrastructure, powered by Prisma, Next.js, and NextAuth, guarantees a seamless, secure and responsive experience for its users.
 
-## Upcoming Features
-
-- **Payment System:** Streamline transactions with secure, user-friendly payment processing.
-- **Account Settings:** Personalize your Homescape experience by managing profile details and preferences effortlessly.
-- **Enhanced Search System:** Discover your ideal accommodation faster with advanced filtering options and improved search functionality. 
